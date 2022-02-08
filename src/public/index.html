@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de usuários no GitHub</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="header"><h1>Pesquisa de usuários no GitHub</h1></div>
+    <div id="form">
+            <form>
+            <label>Nome do usuário:</label>
+            <input type="text" id="name" value="">
+            <button id="pesquisar" onclick="pesquisarUsuario() ; return false;">Pesquisar</button>
+        </form>
+        <hr id="hr"> 
+        <div id="res"><div id="nameUser"></div><div id="avatarUser"><img id="avatar" src=""></div></div>
+    </div>
+    <script src="./js/pesquisaDeUsuario.js"></script>
+</body>
+</html>

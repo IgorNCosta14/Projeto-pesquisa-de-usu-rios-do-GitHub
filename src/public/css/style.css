@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+*, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border:none;
+    background-color: #F6F8FA;
+    height: 100vh;
+}
+
+#header {
+    background-color: #24292F;
+    color: #F6F8FA;
+    border:none;
+}
+
+h1 {
+    padding: 15px;
+}
+
+#form {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+#nameSearch { 
+
+    border-radius: 5px;
+}
+
+#res{
+    padding: 15px;
+}
+
+hr {
+    margin-top: 15px;
+}
+
+#pesquisar { 
+    padding: 3px;
+    border-radius: 5px;
+    color: #F6F8FA;
+    background-color: #24292F;
+}
+
+#avatar {
+    border-radius: 50%; 
+    padding: 15px;
+}
+
