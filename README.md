@@ -8,6 +8,6 @@ O Projeto foi feito usando JavaScript, HTML e CSS no front-end do Projeto. No ba
 
 Para usar o programa, abra a pasta do projeto no terminal e digite: "npm i" ou "yarn", em seguida digite "npm run dev" ou "yarn dev". Acesse: http://localhost:3333/ no navegador.
 
-No link a seguir uma a uma versão do projeto usando apenas JavaScript, HTML e CSS.
+No link a seguir uma versão do projeto usando apenas JavaScript, HTML e CSS.
 
 https://codepen.io/IgorNCosta14/pen/abVJZJq
