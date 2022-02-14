@@ -18,7 +18,10 @@ app.get("/users/:username", async (request, response) => {
   try {
     const { data } = await axios(`https://api.github.com/users/${username.username}`)
 
-    return response.status(201).json(data)
+    const userName = data.name;
+    const avatar = data.avatar_url;
+
+    return response.status(201).json({userName, avatar})
 
   } catch (error) {
     return response.status(400).json({erro: "User not found."})
