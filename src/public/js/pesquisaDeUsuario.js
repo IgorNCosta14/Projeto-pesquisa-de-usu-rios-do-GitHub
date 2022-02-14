@@ -18,9 +18,9 @@ function pesquisarUsuario() {
         if (res.erro){
             console.log(Erro)
         } else {
-        document.getElementById("nameUser").innerHTML = res.name
+        document.getElementById("nameUser").innerHTML = res.userName
 
-        avatarUser.src = res.avatar_url
+        avatarUser.src = res.avatar
         }
     } catch (error) {
         document.getElementById("nameUser").innerHTML = "Não foi possível achar o usuário, tente novamente."
@@ -32,4 +32,4 @@ function pesquisarUsuario() {
 
     
     
-}   
+}  
