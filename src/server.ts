@@ -1,4 +1,4 @@
-var cors = require('cors')
+import cors from "cors"
 import express from "express";
 import axios from "axios";
 import path from "path"
